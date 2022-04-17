@@ -4,6 +4,7 @@ The application uses a dataset "diamonds" from a package "ggplot2". In the user 
 to select the mass of the diamond in carats using the slider, select the clarity using the radio buttons, check the box. 
 At the output, a graph of the dependence of the price of a diamond on the mass in carats and clarity is built.
 This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+# Location of the application on the site shinyapps.io:  https://nadinesolov3170.shinyapps.io/diamond/
 
 Instructions:
 Your Shiny Application
