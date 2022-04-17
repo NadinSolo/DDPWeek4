@@ -54,9 +54,7 @@ server <- function(input, output) {
     clarityInput<-input$radioButtonsclarity
     ggplot(data=diamonds, aes(x=carat, y=price, color=clarity, size=carat)) +
       geom_point()
-    #ggplot(data = diamonds, aes(x = carat, y = price,  color = clarity)) +
-    # geom_line() + geom_point()
-  })
+     })
 }
 
 # Run the application 
