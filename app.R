@@ -2,14 +2,13 @@ library('ggplot2')
 diamonds
 
 library(shiny)
-# Define UI for application that draws a histogram
+
 ui <- fluidPage(
   
   # Application title
   titlePanel("Diamond price prediction"),
   
-  # Sidebar with a slider input for number of bins 
-  sidebarLayout (
+    sidebarLayout (
     sidebarPanel(
       sliderInput("slider Carat",
                   "carat diamond weight:",
@@ -27,7 +26,7 @@ ui <- fluidPage(
       
     ),
     
-    # Show a plot of the generated distribution
+    
     mainPanel(
       plotOutput("plot"),
       h3("Predicted  Price from Model:"),
@@ -47,11 +46,10 @@ server <- function(input, output) {
     clarityInput<-input$radioButtonsclarity
     predict(model, newdata=data.frame(carat=caratInput, clarityInput))
     
-    
+   
   })
   
-  
-  output$plot <- renderPlot({
+    output$plot <- renderPlot({
     caratInput<-input$sliderCarat
     clarityInput<-input$radioButtonsclarity
     ggplot(data=diamonds, aes(x=carat, y=price, color=clarity, size=carat)) +
