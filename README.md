@@ -6,7 +6,7 @@ At the output, a graph of the dependence of the price of a diamond on the mass i
 This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 ### Location of the application on the site shinyapps.io:  https://nadinesolov3170.shinyapps.io/diamond/
 
-Instructions:
+### Instructions:
 Your Shiny Application
 
 Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
