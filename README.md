@@ -1,6 +1,6 @@
 # DDPWeek4
 ## APPLICATION DESCRIPTION:
-the app uses data from GaltonFamilies.
+The app uses data from GaltonFamilies.
 The user can predict the height of a child knowing the height of his parents using slider manipulation.
 ### Location of the application on the site shinyapps.io:  https://nadinsolo.shinyapps.io/prim/
 
